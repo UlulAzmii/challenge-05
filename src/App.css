@@ -1,0 +1,175 @@
+.content {
+  text-align: left;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+}
+
+.banner {
+  margin-bottom: 20px;
+}
+
+.movie-content {
+  background-color: #b39b9b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.genres {
+  margin-bottom: 10px;
+}
+
+.genres-item {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.rating {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Movie-wrapper {
+  width: 250px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Movie-search {
+  height: 30px;
+  font-size: 12px;
+  border: 1px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.Movie-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.popular {
+  margin-left: -27px;
+  margin-right: 20px;
+}
+
+.Movie-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.button-back {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-back:hover {
+  background-color: #ff3d00;
+}
+
+.detail-movie-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  height: 100vh;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#carouselExample {
+  width: 100%;
+  height: 80vh;
+}
+
+.carousel-inner .carousel-item {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner .carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.allName {
+  position: absolute;
+  right: 10px;
+  top: 10px; 
+  width: 15%;
+  color: #000; /* Corrected color value */
+  border-radius: 10px;
+  background-color: #A7D397;
+  text-align: center;
+  padding: 10px; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.allmovie {
+  position: absolute;
+  right: 10px;
+  width: 8%;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #ff3d00;
+  text-align: center;
+  padding: 10px; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.allreg {
+  position: absolute;
+  right: 130px;
+  width: 8%;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #ff3d00;
+  text-align: center;
+  padding: 10px; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
